@@ -1,10 +1,6 @@
-import { combineReducers } from 'redux';
+const TestReducer = () =>({
+    test:'testData',
+    test1:2
+});
 
-function comments(state={}, action) {
-    switch (action.type){
-        case GET_COOMENTS:
-            return{...state};
-    }
-}
-
-export default combineReducers()
+export default TestReducer;
